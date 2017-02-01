@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2016-05-16
+img: post01.jpg
+alt: image-alt
+project-date: April 2016
+client: corp
+category: test
+description: test
+
+---

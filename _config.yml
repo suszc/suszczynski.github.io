@@ -1,0 +1,68 @@
+# Site settings
+baseurl: "" # the subpath of your site, e.g. /blog
+title: Martin Suszczynski
+author: Martin Suszczynski
+email: martin.suszczynski@gmail.com
+url: "https://suszczynski.github.io"
+description: "Helping companies make better decisions by taking advantage of the data they have, combining it with expert opinion, creating mathematical models, overcoming computational difficulties and interpreting the results."
+meta_author: Suszczynski Martin
+
+# Google webmaster tools
+google_verify: "7rCy2NQQJZK-kXpqJmVnpJ0KQCYQ3iIhNkllQXrTvig"
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify: "E4AB21A577922F20160563F7229BB546"
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: Martin
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 428bca #80B3FF  #18bc9c #
+  primary-rgb: "128,179,255" #"24,288,156" #
+  secondary: 2c3e50
+  secondary-dark: 233140
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+sass:
+  style: compressed
+
+repository: suszczynski/suszczynski.github.io
+
+paginate: 19
+
+
+
+gems:
+ - jekyll-coffeescript
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-github-metadata
+ - jekyll-mentions
+ - jekyll-redirect-from
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-paginate
+ - jemoji
+
+whitelist:
+ - jekyll-coffeescript
+ - jekyll-feed
+ - jekyll-gist
+ - jekyll-github-metadata
+ - jekyll-mentions
+ - jekyll-redirect-from 
+ - jekyll-seo-tag
+ - jekyll-sitemap
+ - jekyll-paginate
+ - jemoji
